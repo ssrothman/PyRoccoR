@@ -1,0 +1,3 @@
+[submodule "PyRoccoR/roccor"]
+	path = PyRoccoR/roccor
+	url = ssh://git@gitlab.cern.ch:7999/srothman/roccor.git
