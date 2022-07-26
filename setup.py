@@ -30,10 +30,10 @@ def configuration(parent_package='', top_path=None):
     import numpy
     from numpy.distutils.misc_util import Configuration
 
-    config = Configuration('PyRoccoR',
+    config = Configuration('roccor',
                            parent_package,
                            top_path)
-    config.add_extension('PyRoccoR', ['PyRoccoR/wrap.cc', 'PyRoccoR/roccor/RoccoR.cc'])
+    config.add_extension('roccor', ['PyRoccoR/wrap.cc', 'PyRoccoR/roccor/RoccoR.cc'])
 
     return config
 

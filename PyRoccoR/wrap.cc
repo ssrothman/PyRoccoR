@@ -9,7 +9,7 @@
  *
  */
 
-RoccoR rc("roccor/RoccoR2017UL.txt");
+RoccoR rc("corrections/roccor/RoccoR2017UL.txt");
 
 static PyMethodDef Methods[] = {
         {NULL, NULL, 0, NULL}
