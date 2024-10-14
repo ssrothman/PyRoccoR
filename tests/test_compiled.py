@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import pyroccor._core as m
+import PyRoccoR._core as m
 
 
 def test_add():

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import importlib.metadata
 
-import pyroccor as m
+import PyRoccoR as m
 
 
 def test_version():
