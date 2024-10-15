@@ -1,5 +1,5 @@
 [build-system]
-requires = ["pybind11", "scikit-build-core>=0.10"]
+requires = ["pybind11", "scikit-build-core>=0.10", "devtools", "numpy"]
 build-backend = "scikit_build_core.build"
 
 
@@ -157,7 +157,7 @@ isort.required-imports = ["from __future__ import annotations"]
 [tool.pylint]
 py-version = "3.9"
 ignore-paths = [".*/_version.py"]
-extension-pkg-allow-list = ["pyroccor._core"]
+extension-pkg-allow-list = ["pyroccor._ufunc", "pyroccor._roccor"]
 reports.output-format = "colorized"
 similarities.ignore-imports = "yes"
 messages_control.disable = [

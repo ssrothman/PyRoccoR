@@ -1,0 +1,3 @@
+[submodule "src/roccor"]
+	path = src/roccor
+	url = ssh://git@gitlab.cern.ch:7999/srothman/roccor.git
